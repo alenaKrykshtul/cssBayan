@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(246, 242, 219);
+  font-family: "PT Sans", sans-serif;
+}
+.container {
+  max-width: 320px;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
