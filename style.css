@@ -12,7 +12,7 @@ h1 {
   margin: 0;
 }
 .container {
-  width: 320px;
+  width: 17rem;
   height: auto;
 }
 
@@ -66,10 +66,10 @@ h1 {
   display: block;
   height: auto;
 }
-label:hover ~ .picture {
+/* label:hover ~ .picture {
   display: block;
   height: auto;
-}
+} */
 
 img {
   max-width: 100%;
@@ -81,7 +81,26 @@ img {
   border-bottom: 1px solid #807d7d;
   width: 100%;
 }
-@media (min-width: 820px) {
+
+@media (min-width: 400px) {
+  .container {
+    min-width: 22rem;
+  }
+}
+@media (min-width: 500px) {
+  .container {
+    min-width: 28rem;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    min-width: 32rem;
+  }
+  .folder__title {
+    font-size: 1.4rem;
+  }
+}
+/* @media (min-width: 820px) {
   .container {
     width: 820px;
   }
@@ -98,5 +117,17 @@ img {
   .picture {
     width: 50%;
     justify-content: center;
+  }
+} */
+@media (min-width: 1920px) {
+  label:hover ~ .picture {
+    display: block;
+    height: auto;
+  }
+  .container {
+    min-width: 36rem;
+  }
+  .folder__title {
+    font-size: 1.6rem;
   }
 }
